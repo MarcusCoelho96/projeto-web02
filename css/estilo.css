@@ -3,68 +3,155 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-a{
-    font-weight: bold;
-}
-main{
-    display: flex;
-    width: 99.1vw;
-}
-main > div{
-    display: block;
-}
-header{
-    background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.904), rgba(0, 0, 0, 0.925), rgba(0, 0, 0, 0.966), black);
-    color: white;
-    text-align: center;
-    box-shadow: 2px 2px 6px black;
-    border-radius: 2px;
-}
-header img{
-    box-shadow: 0px 0px 100px black;
-    border-radius: 20px;
-}
-header h1{
-    max-width: 100%;
-    font-size: 2em;
-    padding-bottom: 20px;
-}
-h2{
-    padding-top: 15px;
-}
-section#caixa01{
-    width: 90vw;
-    padding: 15px;
-    height: 100vh;
-}
-aside#lateral{
-    display: flex;
-    flex-direction: column;
-    overflow-x: hidden;
-    padding: 5px;
-    max-height: 800px;
-    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.377);
-    border-radius: 2px;
-}
-aside#lateral > div#texto{
-}
-div#img1{
-    background-image: url(../img/feedback.jpg);
-}
-div#img2{
-   
-}
-aside#lateral > div#img3{
-  
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
 }
 
-footer{
-    background-image:  linear-gradient(to top, transparent, rgba(0, 0, 0, 0.904), rgba(0, 0, 0, 0.925), rgba(0, 0, 0, 0.966), black);
-    text-align: center;
+body{
+    background-size: 100vh;
+    background-color: rgb(27, 27, 27);
 }
-footer p{
-    padding: 15px 15px 30px 15px;
+main{
+    width: 50vw;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.507);
+    margin: auto;
+    height: auto;
+    border-radius: 50px;
+    /*overflow-x: hidden;*/
+}
+#header-inicio{
+    text-align: center;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+#nav-inicio{
+    border: 1px solid black;
+    text-align: center;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.527);
+    font-variant: small-caps;
+}
+#nav-inicio ul li{
+    display: inline-block;
+    padding: 15px;
+}
+#nav-inicio ul li a{
+    text-decoration: none;
     color: white;
+}
+#nav-inicio ul li a:hover{
+    font-weight: bold;
+}
+section{
+    border: 5px solid white;
+    border-radius: 30px;
+}
+section div{
+    border-radius: 30px 30px 0 0;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.486);
+}
+section#s1{
+    background-color: rgb(0, 0, 0);
+    background-image: url(../img/15especial.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    color: white;
+    width: 800px;
+    height: 900px;
+    margin: auto;
+}
+section#s2{
+    background-color: rgb(0, 0, 0);
+    background-image: url(../img/chido.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    color: white;
+    width: 800px;
+    height: 900px;
+    margin: auto;
+}
+section#s3{
+    background-color: rgb(0, 0, 0);
+    background-image: url(../img/yakisoba.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    color: white;
+    width: 800px;
+    height: 900px;
+    margin: auto;
+}
+section#s4{
+    background-color: rgb(0, 0, 0);
+    background-image: url(../img/oniguiri.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    color: white;
+    width: 800px;
+    height: 900px;
+    margin: auto;
+}
+section#s5{
+    background-color: rgb(0, 0, 0);
+    background-image: url(../img/rolinho01.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    color: white;
+    width: 800px;
+    height: 900px;
+    margin: auto;
+}
+section#s6{
+    background-color: rgb(0, 0, 0);
+    background-image: url(../img/coxinha.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    color: white;
+    width: 800px;
+    height: 900px;
+    margin: auto;
+}
+section div{
+    background-color: rgba(0, 0, 0, 0.404);
+}
+p{
+    padding: 15px;
+}
+h1, h2{
+    padding: 15px;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    background-color: rgba(245, 229, 0, 0.171);
+    box-shadow: inset 1px 1px 6px black;
+}
+footer > p{
+    padding: 0;
+    text-shadow: 1px 1px 6px black;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 6px black;
+
+}
+footer a:hover{
+    text-decoration: underline;
 }
